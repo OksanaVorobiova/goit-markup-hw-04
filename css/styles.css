@@ -369,12 +369,12 @@ a, img {
 .nav-list {
    display: flex;
    justify-content: space-between;
+   margin-right: 344px;
 }
 
 .contact-list {
    display: flex;
    align-items: center;
-   margin-left: 344px;
 }
 
 .nav-list li:not(:last-child) {
@@ -461,3 +461,24 @@ a, img {
    display: flex;
    flex-direction: column;
 }
+
+/* svg */
+.contacts-icon {
+   fill: var(--primary-paragraph-color);
+   margin-right: 10px;
+   display: inline-block;
+}
+
+.contacts {
+   display: flex;
+   align-items: center;
+}
+
+.contacts-phone {
+   min-width: 142px;
+}
+
+.contacts:hover .contacts-icon  {
+   fill: var(--accent-color);
+}
+
