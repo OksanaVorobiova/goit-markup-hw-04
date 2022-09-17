@@ -571,6 +571,8 @@ a, img {
 .clients-list {
    display: flex;
    margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .clients-item {
