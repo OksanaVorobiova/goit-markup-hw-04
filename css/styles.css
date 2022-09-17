@@ -172,7 +172,7 @@ a, img {
  .footer {
    padding-top: 60px;
    padding-bottom: 60px;
-    background-color: var(--background-color);
+   background-color: var(--background-color);
  }
 
  .span {
@@ -332,7 +332,7 @@ a, img {
  }
 
  .logo-footer {
-   display: inline-block;
+   display: block;
    margin-bottom: 20px;
    
  }
@@ -462,7 +462,7 @@ a, img {
 
 .container-footer {
    display: flex;
-   flex-direction: column;
+   /*flex-direction: column;*/
 }
 
 /* svg */
@@ -599,4 +599,18 @@ a, img {
 .clients-item:hover,
 .clients-item:focus {
    border: 1px solid #2196f3;
+}
+
+/* footer */
+.socials-heading {
+   color: var(--primary-background-color);
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+
+.footer-socials {
+   .margin-left: 70px;
 }
