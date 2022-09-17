@@ -589,7 +589,12 @@ a, img {
    margin-right: 30px;
 }
 
-.clients-logo:hover
+.clients-logo:hover,
 .clients-logo:focus {
    fill: var(--accent-color);
+}
+
+.clients-item:hover,
+.clients-item:focus {
+   border: 1px solid #2196f3;
 }
