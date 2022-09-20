@@ -558,6 +558,7 @@ a, img {
 .social-div:hover,
 .social-div:focus {
    background-color: var(--accent-color);
+   fill: #fff;
 }
 
 .card-icon:hover,
@@ -605,26 +606,19 @@ a, img {
    margin-right: 30px;
 }
 
-.clients-item:hover, .clients-logo:hover {
+.clients-item:hover {
+   border-color: #2196f3;
    fill: #2196f3;
-   border: 1px solid #2196f3;
-}
-
-.clients-item:focus, .clients-logo:focus {
-   fill: #2196f3;
-   border: 1px solid #2196f3;
 }
 .clients-logo {
    fill: var(--social-icons);
    margin: 16px 32px;
-   border: 1px solid transparent;;
 }
 
-.clients-logo:hover,
-.clients-logo:focus {
-   border: 1px solid transparent;
-}
-
+ .clients-item > use:hover,
+ .clients-item > use:focus {
+   border-color: transparent;
+ }
 /* footer */
 .socials-heading {
    color: var(--primary-background-color);
