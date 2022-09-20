@@ -606,10 +606,16 @@ a, img {
    margin-right: 30px;
 }
 
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
    border-color: #2196f3;
+}
+
+.clients-item:hover > .clients-logo,
+.clients-item:focus > .clients-logo {
    fill: #2196f3;
 }
+
 .clients-logo {
    fill: var(--social-icons);
    margin: 16px 32px;
