@@ -337,7 +337,7 @@ a, img {
  .work-list {
    display: flex;
  }
- 
+
  section {
    margin-top: 0;
    margin-bottom: 0;
@@ -722,4 +722,40 @@ a, img {
    opacity: 0;
 }
 
+.backdrop {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.backdrop.is-hidden {
+   opacity: 0;
+   pointer-events: none;
+   visibility: 
+}
+
+.modal {
+   position: absolute;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 528px;
+   height: 581px;
+   background-color: var(--primary-background-color);
+}
+
+.modal-close {
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: var(--primary-background-color);
+   border: 1px solid rgba(0, 0, 0, 0.1);
+}
 
