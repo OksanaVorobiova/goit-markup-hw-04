@@ -680,7 +680,8 @@ a, img {
    bottom: 0;
    width: 100%;
    height: 70px;
-   padding: 27px 107px;
+   padding-top: 27px;
+   padding-bottom: 27px;
    background-color: rgba(47, 48, 58, 0.8);
 }
 
@@ -692,14 +693,5 @@ a, img {
    color: var(--primary-background-color);
    letter-spacing: 0.03em;
    text-transform: uppercase;
-}
-
-.work-description.third {
-   padding: 27px 95px;
-}
-
-.work-paragraph.third {
-   min-width: 180px;
-   max-height: 16px;
 }
 
