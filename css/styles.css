@@ -471,6 +471,10 @@ a, img {
    margin-right: 30px;
 }
 
+.work-image {
+   position: relative;
+}
+
 .description {
    padding-top: 30px;
    padding-bottom: 30px;
@@ -668,5 +672,34 @@ a, img {
 .footer-icon:focus {
    background-color: var(--accent-color);
 }
-/*portfolio-svg*/
+/*position*/
+
+.work-description {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 70px;
+   padding: 27px 107px;
+   background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work-paragraph {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.2;
+   text-align: center;
+   color: var(--primary-background-color);
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+
+.work-description.third {
+   padding: 27px 95px;
+}
+
+.work-paragraph.third {
+   min-width: 180px;
+   max-height: 16px;
+}
 
